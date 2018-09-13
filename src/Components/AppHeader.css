@@ -1,0 +1,15 @@
+.app-header {
+    background-color: #3b57ab;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
+    color: #ffffff;
+    display: inline-flex;
+    width: 100%;
+}
+
+.app-header__logo {
+    margin: auto;
+}
+
+.app-header__button {
+    margin: auto;
+}

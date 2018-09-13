@@ -1,0 +1,32 @@
+.add-note {
+    margin: 0 auto;
+    text-align:center; 
+}
+
+.add-note textarea {
+    margin: 0 auto;
+    resize: none;
+    height: 350px;
+    max-width: 350px;
+    transform: none !important;
+    width: 85%;
+}
+
+.add-note textarea::placeholder {
+    color: #eeeeee;
+}
+
+.add-note select {
+    background-color: transparent;
+    padding: 10px;
+    margin-top: 20px;
+    border: 1px solid #eeeeee;
+}
+
+.add-note__submit {
+    margin-top: 20px;
+    padding: 10px;
+    background: transparent;
+    border: 1px solid #eeeeee;
+    margin-bottom: 20px;
+}
