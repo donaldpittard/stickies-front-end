@@ -70,7 +70,7 @@ class App extends Component {
 
   handleNewNote(newNote) {
     let notes = this.state.notes;
-    notes.push(newNote);
+    notes.unshift(newNote);
     this.setState({notes: notes});
   }
 
