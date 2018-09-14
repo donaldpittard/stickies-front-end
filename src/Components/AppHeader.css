@@ -2,7 +2,10 @@
     background-color: #3b57ab;
     box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
     color: #ffffff;
-    display: inline-flex;
+    height: 46px;
+    padding-top: 14px;
+    /* display: inline-flex; */
+    text-align: center;
     width: 100%;
 }
 
@@ -10,6 +13,16 @@
     margin: auto;
 }
 
+.app-header__title {
+    display: inline;
+}
+
 .app-header__button {
-    margin: auto;
+    background-color: transparent;
+    border: none;
+    color: white;
+    cursor: pointer;
+    float: right;
+    font-size: 2em;
+    margin: auto 4px auto auto;
 }

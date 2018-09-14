@@ -1,5 +1,5 @@
 .add-note {
-    margin: 0 auto;
+    margin: 24px auto auto auto;
     text-align:center; 
 }
 
@@ -29,4 +29,15 @@
     background: transparent;
     border: 1px solid #eeeeee;
     margin-bottom: 20px;
+    transition: background-color 0.5s ease;
+}
+
+.add-note__submit:hover {
+    background-color: #3b57ab;
+    color: #ffffff;
+}
+
+@media only screen 
+    and (min-width: 768px) {
+    
 }

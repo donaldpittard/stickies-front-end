@@ -24,11 +24,15 @@ class AppHeader extends Component {
     render() {
         return (
             <div className="app-header">
-                <div className="app-header__logo"></div>
-                <h1 className="app-header__title">Notes</h1>
-                <button className="app-header__button" type="button" onClick={this.showModal}>
-                    <i className="fa fa-sticky-note-o" aria-hidden="true"></i>
-                </button>
+                {/* <div className="app-header__logo"></div> */}
+                {/* <div className="app-header__title"> */}
+                    <h1 className="app-header__title">Notes</h1>
+                {/* </div> */}
+                {/* <div className="app-header__menu"> */}
+                    <button className="app-header__button" type="button" onClick={this.showModal}>
+                        <i className="fa fa-plus-square" aria-hidden="true"></i>
+                    </button>
+                {/* </div> */}
                 <Modal show={this.state.show} handleClose={this.hideModal}>
                     <AddNote createNote={this.createNote} colors={this.props.colors} defaultColor={this.props.defaultColor} />
                 </Modal>

@@ -67,7 +67,12 @@
 } */
 
 .note__delete-btn {
-    float: right;
+	float: right;
+	background-color: transparent;
+    border: none;
+    font-size: 0.75em;
+	color: white;
+	cursor: pointer;
 }
 
 .note--handwritten {

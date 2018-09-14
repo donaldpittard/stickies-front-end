@@ -12,7 +12,7 @@ class Note extends Component {
         return (
             <div className={noteClasses}>
                 <button className="note__delete-btn" onClick={this.deleteNote.bind(this, this.props.note.id)}>
-                    <i className="fa fa-trash" aria-hidden="true"></i>
+                    <i className="fa fa-minus-square" aria-hidden="true"></i>
                 </button>
                 {this.props.note.comment}
             </div>
